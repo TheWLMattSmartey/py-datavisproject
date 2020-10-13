@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8b9f6b8d-007c-4c50-b9d4-f7b553150aa5</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>DataVisProject.py</StartupFile>
+    <StartupFile>mpl_squares.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="DataVisProject.py" />
+    <Compile Include="mpl_squares.py" />
+    <Compile Include="random_walk.py" />
+    <Compile Include="rw_visual.py" />
+    <Compile Include="scatter_squares.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
