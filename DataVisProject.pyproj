@@ -21,6 +21,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="dice_visual.py" />
+    <Compile Include="die.py" />
+    <Compile Include="die_visual.py" />
+    <Compile Include="different_sides_dice_visual.py" />
+    <Compile Include="london_weather_highs_lows.py" />
     <Compile Include="mpl_squares.py" />
     <Compile Include="random_walk.py" />
     <Compile Include="rw_visual.py" />
