@@ -1,5 +1,5 @@
 import json
-import pygal.maps.world as worldmap
+from pygal.maps.world import World
 from country_codes import get_country_code
 
 # load the world population data into a list
@@ -17,7 +17,7 @@ for pop_dict in pop_data:
         if code:
             cc_population[code] = population
 
-wm = worldmap.World()
+wm = World()
 wm.title = 'World populations in 2010 by country'
 wm.add('2010', cc_population)
 
